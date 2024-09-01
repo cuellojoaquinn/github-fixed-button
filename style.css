@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+}
+
+.github-button{
+    position: fixed; /*Sale del flujo normal del documento. Se posiciona respecto a la pantalla*/
+    bottom: 1vw;
+    right: 1vw; 
+
+    padding: 3px 15px;
+    font-size: 1rem;
+}
+
+/* estado regular del link */
+a:link {
+    text-decoration: none;
+}
+
+/* cuando el boton fue clickeado */
+a:visited { 
+    text-decoration: none;
+    color: #000;
+}
+/* mouse sobre la etiqueta a */
+a:hover {
+text-decoration: underline;
+}
+
+/* se clickea la etiqueta */
+a:active {
+text-decoration: underline;
+}
